@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/user.css">
+	<link rel="stylesheet" type="text/css" href="css/stylea.css">
+	<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js">
+	</script>
+	<script>
+        $(document).ready(function () {
+            $('.item').click(function () { // 选择点击方法
+                $('.item').removeClass('act') // 删除class
+                $(this).addClass('act') // 添加class
+
+                var index = $(this).index() // 获取到索引
+                $('.content-list').removeClass('content-list-act') // 删除class
+                $('.content-list').eq(index).addClass('content-list-act') // 添加class
+            })
+        });
+	</script>
+</head>
+<body>
+<div class="content-top">
+	<div class="head">
+		<div class="head_width content-width">
+			<ul class="head_width_left">
+				<li class="left_list">欢迎来到丹意达商城！</li>
+				<li>请<a href="login.html">登录</a></li>
+				<li><a href="register.html">注册</a></li>
+			</ul>
+			<ul class="head_width_right">
+				<li><a href="">我的订单</a></li>
+				<li><a href="">丹意服务</a></li>
+				<li><a href="">帮助中心</a></li>
+				<li><a href="user.html" class="at">会员中心</a></li>
+				<div style="clear: both;"></div>
+			</ul>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+	<div class="nav content-width">
+		<div class="nav_left">
+			<a href="#" class="logo"><img src="./images/logo_03.png"></a>
+			<div class="nav_left_list">
+				<p class="nav-title">全部商品名称</p>
+				<div class="nav-list" style="display: none;">
+					<a href="#" class="item">
+						<span class="title">家用仪器</span>
+						<img class="icon" src="images/icon_03.png">
+						<img class="icon icon-act" src="images/icon_01_03.png">
+					</a>
+					<a href="#" class="item">
+						<span class="title">家用仪器</span>
+						<img class="icon" src="images/icon_03.png">
+						<img class="icon icon-act" src="images/icon_01_03.png">
+					</a>
+					<a href="#" class="item">
+						<span class="title">家用仪器</span>
+						<img class="icon" src="images/icon_03.png">
+						<img class="icon icon-act" src="images/icon_01_03.png">
+					</a>
+					<a href="#" class="item">
+						<span class="title">家用仪器</span>
+						<img class="icon" src="images/icon_03.png">
+						<img class="icon icon-act" src="images/icon_01_03.png">
+					</a>
+					<a href="#" class="item">
+						<span class="title">家用仪器</span>
+						<img class="icon" src="images/icon_03.png">
+						<img class="icon icon-act" src="images/icon_01_03.png">
+					</a>
+					<a href="#" class="item">
+						<span class="title">家用仪器</span>
+						<img class="icon" src="images/icon_03.png">
+						<img class="icon icon-act" src="images/icon_01_03.png">
+					</a>
+					<a href="#" class="item">
+						<span class="title">家用仪器</span>
+						<img class="icon" src="images/icon_03.png">
+						<img class="icon icon-act" src="images/icon_01_03.png">
+					</a>
+					<a href="#" class="item">
+						<span class="title">家用仪器</span>
+						<img class="icon" src="images/icon_03.png">
+						<img class="icon icon-act" src="images/icon_01_03.png">
+					</a>
+					<a href="#" class="item">
+						<span class="title">家用仪器</span>
+						<img class="icon" src="images/icon_03.png">
+						<img class="icon icon-act" src="images/icon_01_03.png">
+					</a>
+					<a href="#" class="item">
+						<span class="title">家用仪器</span>
+						<img class="icon" src="images/icon_03.png">
+						<img class="icon icon-act" src="images/icon_01_03.png">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="nav_center">
+			<form class="center_form">
+				<input type="text" placeholder="请输入关键词" class="nav_text">
+				<button type="submit" value="name" name="搜索" class="nav_submit">搜索</button>
+			</form>
+			<ul class="center_search">
+				<li><a href="#" class="at">养生</a></li>
+				<li><a href="#">脱毛</a></li>
+				<li><a href="#">减肥</a></li>
+				<li><a href="#">祛斑</a></li>
+				<li><a href="#">丰胸</a></li>
+				<li><a href="#">理疗仪</a></li>
+				<li><a href="#">排酸</a></li>
+				<div style="clear: both;"></div>
+			</ul>
+			<ul class="center_column">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="">家用仪器</a></li>
+				<li><a href="shopList.html" class="at">减肥仪器</a></li>
+				<li><a href="">养生仪器</a></li>
+				<li><a href="">面部仪器</a></li>
+				<li><a href="">清洁护理</a></li>
+				<div style="clear: both;"></div>
+			</ul>
+		</div>
+		<a href="shop_carts.html" class="nav_right">
+			<img src="./images/icon_1_04.png">
+			<span class="title">我的购物车</span>
+			<span class="number">2</span>
+			<div style="clear: both;"></div>
+		</a>
+		<div style="clear: both;"></div>
+	</div>
+</div>
+<div class="user content-width">
+	<div class="user-left fl">
+		<p class="item-p">个人中心</p>
+		<div class="list-a">
+			<span class="item act">我的用户中心</span>
+			<span class="item">我的购物车</span>
+			<span class="item">我的订单</span>
+			<span class="item">我的收藏</span>
+			<span class="item">我的评价</span>
+			<span class="item">修改登录密码</span>
+			<span class="item">我的余额</span>
+			<span class="item">我的账户</span>
+			<span class="item">地址管理</span>
+			<span class="item">个人信息</span>
+		</div>
+	</div>
+	<div class="content-right fl" style="width: 974px">
+		<!--我的用户中心-->
+		<div class="content-list content-list-act">
+			<div class="user-right">
+				<div class="picture fl">
+					<img src="images/user11_03.png" alt="">
+				</div>
+				<div class="right-list fl">
+					<p class="item">您好，雪儿，欢迎来到会员中心</p>
+					<div class="list">
+						<span class="item-a">待付款（<span class="color">2</span>）</span>
+						<span class="item-a">待确定收货（<span class="color">0</span>）</span>
+						<span class="item-a">待评价（<span class="color">0</span>）</span>
+						<span class="item-a">收货地址管理</span>
+					</div>
+					<div class="list">
+						<span class="item-a">我的积分（<span class="color">288</span>）</span>
+						<span class="item-a">我的优惠券（ <span class="color">3</span> ）</span>
+					</div>
+				</div>
+				<div style="clear: both"></div>
+			</div>
+			<div class="user-right-a">
+				<div class="right-list-a">
+					<span class="list">订单号:<span class="list-a">HD20136012629807</span></span>
+					<span class="list">收件人:雪儿</span>
+					<span class="list">￥520.00</span>
+					<a href="" class="list-p">支付订单</a>
+				</div>
+				<div class="right-list-b">
+					<div class="picture fl">
+						<img src="images/user21_03.png" alt="">
+					</div>
+					<div class="right-a fl">
+						<span class="p">智能减肥甩脂腰带瘦身按摩减 肚子仪器抖抖机燃脂收腹健身 运动器材</span>
+						<span class="pa">单价:<span class="icon">￥5200000.00</span></span>
+						<span class="pa">数量:100</span>
+					</div>
+					<div style="clear: both"></div>
+				</div>
+			</div>
+		</div>
+		<!--我的购物车-->
+		<div class="content-list">我的购物车</div>
+		<!--我的订单-->
+		<div class="content-list">
+			<div class="user-right-w">
+				<a href="" class="item at">所有订单</a>
+				<a href="" class="item">待付款</a>
+				<a href="" class="item">待发货</a>
+				<a href="" class="item">代收款</a>
+				<a href="" class="item">待评价</a>
+				<a href="" class="item">已完成</a>
+			</div>
+			<div class="user-right-e">
+				<div class="right-list">
+					<span class="item">订单号:HD20171012329907</span>
+					<span class="item">下单时间:2017年12月17号-2017年12月19号</span>
+					<span class="item">￥1618.00</span>
+					<a href="" class="item">支付订单</a>
+				</div>
+				<div class="right-list-a">
+					<div class="picture fl">
+						<img src="images/13order_03.png" alt="">
+					</div>
+					<div class="list fl">
+						<span class="item-a">智能减肥甩脂腰带瘦身按摩减肚子仪器抖抖机燃脂收腹健身运动器材</span>
+						<span class="item-b">单价:￥520.00</span>
+						<span class="item-c">数量:1</span>
+					</div>
+					<div style="clear: both"></div>
+				</div>
+				<div class="right-list-a">
+					<div class="picture fl">
+						<img src="images/14order_03.png" alt="">
+					</div>
+					<div class="list fl">
+						<span class="item-a">智能减肥甩脂腰带瘦身按摩减肚子仪器抖抖机燃脂收腹健身运动器材</span>
+						<span class="item-b">单价:￥520.00</span>
+						<span class="item-c">数量:1</span>
+					</div>
+					<div style="clear: both"></div>
+				</div>
+			</div>
+			<div class="button">
+				<div class="box">
+					<div class="left fl">
+						<span class="Previouspage fl">上一页</span>
+						<ul class="button-number fl">
+							<li class="number fl att">1</li>
+							<li class="number fl">2</li>
+							<li class="number fl">3</li>
+							<li class="number fl">4</li>
+							<li class="number fl">5</li>
+							<li class="number fl">6</li>
+							<li class="number fl">7</li>
+							<li class="number fl">...</li>
+						</ul>
+						<span class="nextpage fl">下一页</span>
+						<div style="clear: both;"></div>
+					</div>
+					<div class="right fl">
+						<span class="title fl">共16页，到第</span>
+						<input type="text" class="title-a fl">
+						<span class="title fl">页</span>
+						<a href="" class="number-a fl">确定</a>
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		<!--我的收藏-->
+		<div class="content-list">我的收藏</div>
+		<!--我的评价-->
+		<div class="content-list">我的评价</div>
+		<!--修改登录密码-->
+		<div class="content-list">修改登录密码</div>
+		<!--我的余额-->
+		<div class="content-list">我的余额</div>
+		<!--我的账户-->
+		<div class="content-list">我的账户</div>
+		<!--地址管理-->
+		<div class="content-list">地址管理</div>
+		<!--个人信息-->
+		<div class="content-list">个人信息</div>
+	</div>
+
+	<div style="clear: both"></div>
+</div>
+
+
+<div class="bottomnav">
+	<ul>
+		<li>
+			<img src="images/picture_90_19.png">
+			<p>正品保障</p>
+		</li>
+		<li>
+			<img src="images/picture_91_11.png">
+			<p>售后反馈</p>
+		</li>
+		<li>
+			<img src="images/picture_92_13.png">
+			<p>准时送达</p>
+		</li>
+		<li>
+			<img src="images/picture_93_11.png">
+			<p>安全快捷</p>
+		</li>
+	</ul>
+</div>
+<div style="clear: both;"></div>
+<div class="bottomnav-a">
+	<div class="bottomnav-box">
+		<div class="font">
+			<ul>
+				<li>新手指南</li>
+				<li><a href="">丹意达会员使用说明</a></li>
+				<li><a href="">购物卷使用说明</a></li>
+				<li><a href="">购物流程</a></li>
+				<li><a href="">客户注册</a></li>
+			</ul>
+		</div>
+		<div class="font">
+			<ul>
+				<li>支付说明</li>
+				<li><a href="">优惠劵使用说明</a></li>
+				<li><a href="">常见支付问题</a></li>
+				<li><a href="">支付方式</a></li>
+				<li><a href="">预存款支付</a></li>
+			</ul>
+		</div>
+		<div class="font">
+			<ul>
+				<li>配送问题</li>
+				<li><a href="">常见配送问题</a></li>
+				<li><a href="">配送范围</a></li>
+				<li><a href="">运送方式及运费</a></li>
+				<li><a href="">商品验货及签收</a></li>
+			</ul>
+		</div>
+		<div class="font">
+			<ul>
+				<li>售后服务</li>
+				<li><a href="">退款说明</a></li>
+				<li><a href="">办理退换货</a></li>
+				<li><a href="">退换货政策</a></li>
+				<li><a href="">放心消费</a></li>
+			</ul>
+		</div>
+		<div class="font">
+			<ul>
+				<li>关于我们</li>
+				<li><a href="">了解我们</a></li>
+				<li><a href="">联系我们</a></li>
+				<li><a href="">招聘英才</a></li>
+			</ul>
+		</div>
+		<div class="font-right">
+			<ul>
+				<li>服务热线：（8：00~21: 00）</li>
+				<li>400-123-2333</li>
+				<li>服务邮箱</li>
+				<li>zz8910427@163.com</li>
+			</ul>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+</div>
+<div class="bottomnav-b">
+	<ul class="bottomnav-list">
+		<li class="list">
+			<img src="images/picture_94_15.png">
+			<p>经营性网络备案信息</p>
+		</li>
+		<li class="list">
+			<img src="images/picture_95_17.png">
+		</li>
+		<li class="list">
+			<img src="images/picture_96_19.png">
+			<p>诚信网站</p>
+		</li>
+		<li class="list">
+			<img src="images/picture_97_11.png">
+			<p>中国互联网举报中心</p>
+		</li>
+		<li class="list"><img src="images/picture_98_11.png">
+			<p>网络警察提醒您</p>
+		</li>
+		<div style="clear: both;"></div>
+		<p class="list-p">Copyright © 2017 丹意达商城 版权所有</p>
+	</ul>
+</div>
+
+</body>
+</html>

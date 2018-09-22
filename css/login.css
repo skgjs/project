@@ -1,0 +1,125 @@
+.login{
+    border: 1px solid #e5e5e5;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.login .picture{
+    border-right: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+.login .register{
+    width: 493px;
+}
+.login .register .title{
+    width: 493px;
+    height: 88px;
+    line-height: 88px;
+    text-align: center;
+    font-size: 24px;
+    color: #535151;
+    background-color: #eee;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:#d0d0d0;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#d0d0d0;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:#d0d0d0;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#d0d0d0;
+}
+.login .register .register-fillin{
+    padding: 60px 26px 20px 26px;
+    width: 435px;
+}
+.login .register .register-fillin .list-box{
+    width: 435px;
+}
+.login .register .register-fillin .list-box .list{
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #eee;
+    margin-bottom: 40px;
+}
+.login .register .register-fillin .list-box .list .title-a{
+     font-size: 16px;
+     color: #000;
+     margin-left: 15px;
+ }
+.login .register .register-fillin .list-box .list .item{
+    width: 250px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.login .register .register-fillin .list-box .list-a .title-b{
+    font-size: 16px;
+    color: #000;
+    margin-left: 15px;
+}
+.login .register .register-fillin .list-box .list-a .item-a{
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.login .register .register-fillin .list-box .list-a{
+    width: 210px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #eee;
+}
+.login .register .register-fillin .list-box .verification .list-b{
+    margin-left: 13px;
+}
+.login .register .register-fillin .list-box .verification .list-b .picture-a{
+    height:34px;
+    margin-right: 21px;
+    cursor: pointer;
+}
+.login .register .register-fillin .list-box .verification .list-b .font{
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+.login .register .register-fillin .register-bottom .title-dl{
+    width: 435px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #be0a67;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 26px;
+    outline: none;
+    border: none;
+}
+.login .register .register-fillin .register-bottom .register-list{
+    padding: 12px 0 50px 0;
+    width: 435px;
+}
+.login .register .register-fillin .register-bottom .register-list .item{
+    font-size: 18px;
+    cursor: pointer;
+    color: #000;
+}
+.login .register .register-fillin .signin .signin-list{
+     margin-right: 30px;
+ }
+.login .register .register-fillin .signin .signin-list:nth-child(3){
+    margin-right: 0px;
+}
+.login .register .register-fillin .signin .signin-list .item{
+    font-size: 18px;
+    color: #000;
+    margin-top: 5px;
+}
+
+
+
+
+

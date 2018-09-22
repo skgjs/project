@@ -1,0 +1,165 @@
+.pictrue{
+	max-width: 100%;
+	height: 421px;
+	overflow: hidden;
+	position: relative
+}
+.pictrue img{
+	width: 100%;
+}
+.pictrue .Broadcast_icon{
+	width: 150px;
+	position: absolute;
+	margin: 0;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-around;
+}
+.pictrue .Broadcast_icon i{
+	width: 25px;
+	height: 25px;
+	display:block;
+	border-radius: 100%;
+	background-color: #e4a50e;
+	cursor: pointer;
+}
+.pictrue .Broadcast_icon .act{
+	background-color: red;
+}
+.commodity-box .list {
+	width: 1200px;
+	margin: 21px auto 0;
+}
+.commodity-box .list .item{
+	float: left;
+	margin-left: 2.42%; 
+	width: 18%;
+	border: 1px solid #dcdcdc;
+	box-sizing:border-box; 
+}
+.commodity-box .list .item:nth-child(1){margin-left: 1px;}
+.commodity-box .list .item img{width: 100%;}/*padding 不占width*/
+.commodity-box .list .item p{
+	text-align: center;
+	height: 44px;
+	line-height: 44px;
+	width: 100%;
+	background-color: #eaeef0;
+}
+.commodity-box .list .item p a{font-size: 14px;text-decoration: none;color: #000;}
+.commodity-box .list .item p a:hover{color: #fff;}
+.commodity-box .list .item p:hover{background-color: #27a4ec;}
+.commodity-box .list .item p:hover a{color: #fff;}
+.commodity-box .list .item:hover{border: 1px solid #27a4ec;}
+.Bigpicturec{margin-top: 34px;}
+.Bigpicturec .Bigpicturec-list{width: 1200px;margin: 0 auto 0;}
+.commodity-sort{margin-top: 5px;margin-bottom: 11px;}
+.commodity-sort .list{width: 1200px;margin: 0 auto 0;height: 62px;}
+.commodity-sort .list .item{
+	float: left;
+	border-bottom: 1px solid red;
+	height: 62px;
+	width: 1065px;
+	position: relative;
+}
+.commodity-sort .list .item span{
+	font-size: 24px;
+	position: absolute;
+	display: inline-block;
+	color: red;
+	top: 30%;
+	left: 100px;
+}
+.commodity-sort .list .item-s{
+	float: left;
+	border: 1px solid red;
+	font-size: 14px;
+	color: red;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 22px;
+	border-bottom: none;
+}
+.commodity-Exhibition{width: 1200px;margin: 0 auto 0;}
+.commodity-Exhibition .Exhibition-list .list-a{
+	border: 1px solid #d4d8da;
+	border-radius: 5px;
+	float: left;
+	margin-left: 1px;
+}
+.commodity-Exhibition .Exhibition-list .list{
+	border: 1px solid #d4d8da;
+	border-radius: 5px;
+	float: left;
+	margin-left: 2.7%;
+}
+.commodity-Exhibition .Exhibition-list .list .list-p{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	width: 155px;
+	background-color: #eaeef0;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.commodity-Exhibition .Exhibition-list .list .list-pp{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	width: 96px;
+	background-color: #dd127b;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.commodity-Exhibition .Exhibition-list .list .list-pp a{text-decoration: none;color: #fff;}
+.commodity-Exhibition .Exhibition-list .list .list-p a{text-decoration: none;color: #000;}
+.commodity-Exhibition .Exhibition-list .list .list-p:hover{background-color: #27a4ec;}
+.commodity-Exhibition .Exhibition-list .list .list-p a:hover{color: #fff;}
+.commodity-Exhibition .Exhibition-list .list .list-p:hover a{color: #fff;}
+.commodity-Exhibition .Exhibition-list .list:hover{border: 1px solid  #27a4ec;}
+.commodity-Exhibition .Exhibition-list .list-a:hover{border: 1px solid  #27a4ec;}
+.commodity-Exhibition .Exhibition-list .list{margin-bottom: 21px;}
+.Bigpicturec-a{margin-top:10px;}
+.Bigpicturec-a .Bigpicturec-list-a{width: 1200px;margin: 0 auto 0;}
+.commodity-Three{width: 1200px;margin: 0 auto 0;padding-left: 1px;height: 600px;}
+.commodity-Three .Three-list .list-a{border: 1px solid #d4d8da;border-radius: 3px;float: left;}
+.commodity-Three .Three-list .list{
+	border: 1px solid #d4d8da;
+	border-radius: 3px;
+	float: left;
+	margin-left: 3.2%;
+	margin-bottom: 21px;
+}
+.commodity-Three .Three-list .list .list-pp a{text-decoration: none;color: #fff;}
+.commodity-Three .Three-list .list .list-p a{text-decoration: none;color: #000;}
+.commodity-Three .Three-list .list .list-p{
+		width: 150px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		background-color: #eaeef0;
+		border-radius: 5px;
+		float: left;
+}
+.commodity-Three .Three-list .list .list-pp{
+		float: left;
+		width: 98px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		background-color: #dd127b;
+		border-radius: 5px;
+}
+.commodity-Three .Three-list .list:hover{border: 1px solid #27a4ec;}
+.commodity-Three .Three-list .list-a:hover{border: 1px solid #27a4ec;}
+.commodity-Three .Three-list .list .list-p a:hover{color: #fff;}
+.commodity-Three .Three-list .list .list-p:hover{background-color: #27a4ec;}
+.commodity-Three .Three-list .list .list-p:hover a{color: #fff;}
+

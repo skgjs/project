@@ -1,0 +1,106 @@
+.evaluate{
+    margin-top: 40px;
+}
+.evaluate-title{
+    font-size: 16px;
+    color: #be0a67;
+    border-bottom: 1px solid #be0a67;
+}
+.evaluate .evaluate-min{
+    margin-top: 30px;
+}
+.evaluate .evaluate-min .evaluate-left{
+    margin-right: 82px;
+}
+.evaluate .evaluate-min .evaluate-left .picture{
+    display: block;
+    border: 1px solid #b0acac;
+    cursor: pointer;
+}
+.evaluate .evaluate-min .evaluate-left .list-p{
+    width: 205px;
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin: 20px 0 0 30px;
+    line-height:26px;
+}
+.evaluate .evaluate-min .evaluate-left .list-p .title{
+    margin-top: 20px;
+}
+.evaluate .evaluate-min .evaluate-left .list-p .title .item{
+    color: #be0a67;
+}
+.evaluate .evaluate-right .radio .list{
+    margin-right: 34px;
+}
+.evaluate .evaluate-right .radio .list .input{
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.evaluate .evaluate-right .radio .textarea{
+    border: 2px solid #dadada;
+    outline:none;
+    resize:none;
+    font-size: 14px;
+    color: #7e7e7e;
+    width: 590px;
+    height: 137px;
+    padding: 10px 0 0 10px;
+    margin-top: 12px;
+}
+.evaluate .evaluate-right .checkbox{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.evaluate .evaluate-right .checkbox .item{
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+.evaluate .evaluate-right .checkbox .item-a{
+    display:inline-block;
+    vertical-align: top;
+    line-height: 26px;
+    margin-right: 5px;
+}
+.evaluate .evaluate-right .describe{
+    margin-bottom: 5px;
+}
+.evaluate .evaluate-right .describe .title{
+    font-size: 14px;
+    color: #333;
+}
+.evaluate .evaluate-right .describe .icon{
+    margin-left: 2px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.evaluate .evaluate-right .describe .icon .title-a{
+    font-size: 12px;
+    color: #ff0000;
+    display: inline-block;
+    margin-left: 3px;
+}
+.evaluate .evaluate-right .describe .font{
+    font-size: 14px;
+    color: #333;
+    margin-left: 5px;
+}
+.evaluate .evaluate-right .submit .submit-list{
+    width: 114px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #c21870;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}

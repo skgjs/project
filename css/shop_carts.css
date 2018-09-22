@@ -1,0 +1,158 @@
+.shoppingpage{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.shoppingpage .list-box{
+    margin-left: 375px;
+}
+.shoppingpage .list-box .list{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+}
+.shoppingpage .list-box .list .title{
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    font-size: 14px;
+    background-color: #bfbfbf;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.shoppingpage .list-box .list .title-a{
+    width:150px;
+    height: 2px;
+    background-color: #bfbfbf;
+    position: absolute;
+    z-index:-1;
+    top: 10px;
+}
+.shoppingpage .list-box .list .title-b{
+    font-size: 14px;
+    color: #bfbfbf;
+}
+.list-box-a{
+    border:1px solid #b4b4b4;
+    margin-top: 5px;
+}
+.list-box-a .list-nav{
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #b4b4b4;
+}
+.list-box-a .list-nav .item{
+    font-size: 18px;
+    color: #000;
+    margin-left: 150px;
+}
+.list-box-a .list-nav .item:nth-child(1){
+    margin-left: 245px;
+    margin-right: 80px;
+}
+.shoppingpage .list-box-b{
+    padding: 10px 0 20px 20px;
+}
+.shoppingpage .list-box-b .list-content .item-a{
+    margin-right: 25px;
+    margin-top: 46px;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+}
+.shoppingpage .list-box-b .list-content .item-b{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.shoppingpage .list-box-b .list-content .item-c{
+    width: 182px;
+    font-size: 16px;
+    color:#000;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+.shoppingpage .list-box-b .list-content .item-d{
+    font-size: 21px;
+    color: #000;
+    margin-right: 45px;
+    margin-top: 15px;
+    width: 150px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+.shoppingpage .list-box-b .list-content .item-e{
+    margin-right: 110px;
+    margin-top: 15px;
+}
+.shoppingpage .list-box-b .list-content .item-e .icon{
+    font-size: 15.7px;
+    display: inline-block;
+    color: #000;
+    width: 15px;
+    height: 15px;
+    line-height: 11px;
+    text-align: center;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.shoppingpage .list-box-b .list-content .item-e .icon-a{
+    width: 50px;
+    height: 15px;
+    display: inline-block;
+    line-height: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #000;
+}
+.shoppingpage .list-box-b .list-content .item-f{
+    font-size: 15.7px;
+    color: #be0a67;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 110px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+.shoppingpage .list-box-b .list-content .item-g{
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.shoppingpage .submit{
+    margin-top: 4px;
+}
+.shoppingpage .submit .list-left .item{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.shoppingpage .submit .list-left .item-a{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000;
+}
+.shoppingpage .submit .list-right .item{
+    font-size: 20px;
+    color: #000;
+}
+.shoppingpage .submit .list-right .item-a{
+    font-size: 20px;
+    color: #be0a67;
+}
+.shoppingpage .submit .list-right .title{
+    width: 98px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    background-color: #be0a67;
+}
+.shoppingpage .submit .list-right .title .icon{
+    color: #fff;
+}

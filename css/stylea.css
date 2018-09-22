@@ -1,0 +1,97 @@
+.bottomnav{
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto 0;
+}
+.bottomnav ul li{
+    float: left;
+    height: 110px;
+    line-height: 110px;
+    margin-top: 30px;
+    margin-left: 47px;
+}
+.bottomnav ul li img{
+    float: left;
+    margin-right: 10px;
+}
+.bottomnav ul li p{
+    float: left;
+    font-size: 30px;
+    color: #be0a67;
+    font-weight: bold;
+}
+.bottomnav-a{
+    height: 150px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #8f0b4f;
+}
+.bottomnav-a .bottomnav-box{
+    width: 1200px;
+    margin: 0 auto 0;
+}
+.bottomnav-a .bottomnav-box .font{
+    float: left;
+    width: 180px;
+    height: 120px;
+    text-align: center;
+    margin-top: 13px;
+    position: relative;
+}
+.bottomnav-a .bottomnav-box .font:before{/*p元素之前加内容*/
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    bottom: 20px;
+    z-index: 1;
+    width: 2px;
+    background: #fff;
+}
+.bottomnav-a .bottomnav-box .font ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.bottomnav-a .bottomnav-box .font ul li{
+    color: #fff;
+    font-size: 18px;
+}
+.bottomnav-a .bottomnav-box .font-right{
+    float: left;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.bottomnav-a .bottomnav-box .font-right ul li{
+    color: #fff;
+}
+.bottomnav-b{
+    height: 100px;
+    width: 100%;
+    margin-top: 15px;
+}
+.bottomnav-b .bottomnav-list{
+    width: 1200px;
+    margin: 0 auto 0;
+    position: relative;
+}
+.bottomnav-b .bottomnav-list .list{
+    float: left;
+    margin-left: 95px;
+    height: 50px;
+}
+.bottomnav-b .bottomnav-list .list img{
+    float: left;
+}
+.bottomnav-b .bottomnav-list .list p{
+    float: left;
+    width: 80px;
+    margin-top: 6px;
+}
+.bottomnav-b .bottomnav-list .list-p{
+    position: absolute;
+    left: 50%;
+    margin-left: -130px;
+    margin-top: 15px;
+}

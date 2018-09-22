@@ -1,0 +1,76 @@
+.form-box{
+    margin-left: 257px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.form-box .box-title .title{
+    width: 690px;
+    height: 84px;
+    line-height: 84px;
+    font-size: 24px;
+    color: #000;
+    background-color: #eeeeee;
+    text-align: center;
+}
+.form-box .box-title-a{
+    width: 690px;
+    padding: 0 0 70px 82px;
+    border: 1px solid #eee;
+}
+.form-box .box-title-a .list{
+    width: 515px;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: 1px solid #eeeeee;
+}
+.form-box .box-title-a .list:nth-child(6){
+    margin-bottom: 15px;
+}
+.form-box .box-title-a .list .item{
+    font-size: 16px;
+    color: #000;
+    margin-left: 15px;
+    width: 85px;
+    display: inline-block;
+}
+.form-box .box-title-a .list .item-a{
+    height: 35px;
+    width: 200px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.form-box .box-title-a .list .picture{
+    height: 46px;
+    cursor: pointer;
+}
+.form-box .box-title-a .list-a .item{
+    font-size: 16px;
+}
+.form-box .box-title-a .button .item{
+    width: 515px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    background-color: #dd127b;
+    cursor: pointer;
+    margin-top: 16px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:#d0d0d0;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#d0d0d0;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#d0d0d0;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#d0d0d0;
+}
+
